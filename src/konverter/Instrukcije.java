@@ -9,8 +9,9 @@ public class Instrukcije {
 	}
 
 	// Metoda fUkg
-	public static void funteUkilograme(double a, double b) {
-
+	public static void funteUkilograme(double a) {
+		double kile = a * 0.45359237;
+		System.out.println(a + " funti je "+kile+ " kilograma.");
 	}
 
 	// Metoda cUi
