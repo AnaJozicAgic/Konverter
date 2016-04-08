@@ -3,8 +3,9 @@ package konverter;
 public class Instrukcije {
 
 	// Metoda kgUf
-	public static void kilogrameUfunte(double a, double b) {
-		System.out.println();
+	public static void kilogrameUfunte(double a) {
+		double funte = a * 2.20462262;
+		System.out.println(a + " kilograma je "+funte+" funti.");
 	}
 
 	// Metoda fUkg
