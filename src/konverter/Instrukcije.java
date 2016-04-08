@@ -3,8 +3,9 @@ package konverter;
 public class Instrukcije {
 
 	// Metoda kgUf
-	public static void kilogrameUfunte(double a, double b) {
-		System.out.println();
+	public static void kilogrameUfunte(double a) {
+		double funte = a * 2.20462262;
+		System.out.println(a + " kilograma je "+funte+" funti.");
 	}
 
 	// Metoda fUkg
@@ -25,11 +26,6 @@ public class Instrukcije {
 	// Metoda za pretvaranje cUf
 	public double celziuseUfarenhaite(double celzius) {
 		return ((celzius * 1.8) + 32);
-	}
-
-	// Metoda za pretvaranje fUc
-	public double farenhajteUcelziuse(double farenhajt){
-		return ((farenhajt-32)*1.8);
 	}
 
 }
