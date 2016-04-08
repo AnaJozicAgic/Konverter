@@ -16,12 +16,14 @@ public class Instrukcije {
 
 	// Metoda cUi
 	public static void centimetreUinche(double a, double b) {
-
+		double inc = a / 0.393700787;
+		System.out.printf("%.2f centimetara je %.2f inèa.\n", a, inc);
 	}
 
 	// Metoda iUc
-	public static void incheUcentimetre(double a, double b) {
-
+	public static void incheUcentimetre(double a) {
+		double cm = a * 0.393700787;
+		System.out.printf("%.2f inèa je %.2f centimetara.\n", a, cm);
 	}
 
 	// Metoda za pretvaranje cUf
