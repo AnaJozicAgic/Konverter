@@ -28,8 +28,8 @@ public class Instrukcije {
 	}
 
 	// Metoda za pretvaranje fUc
-	public static void farenhajteUcelziuse(double a, double b){
-		
+	public double farenhajteUcelziuse(double farenhajt){
+		return ((farenhajt-32)*1.8);
 	}
 
 }
